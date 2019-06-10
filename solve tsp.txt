@@ -1,0 +1,9 @@
+solve TSP :
+
+fait un MST
+fait un DFS sur le MST
+si triangle inequality
+	on peut delete les dupli dans le DFS
+	si on trouve un dupli en DFS on le bypass et on va au suivant
+	puisque triangle inequality go direct est plus rapide
+et on obtient un hamiltonien de poids minimum comme ça
